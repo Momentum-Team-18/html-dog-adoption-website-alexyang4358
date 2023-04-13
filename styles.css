@@ -1,3 +1,54 @@
-body {
-    color: #ff6347
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+li, a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white
+}
+
+header {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 30px 10%;
+    background-color: #004175;
+}
+
+.nav-links {
+    list-style:none;
+}
+
+.nav-links li {
+    display:inline-block;
+    padding: 10px 10px;
+}
+
+.home-page-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    color:#000000;
+    display:flexbox;
+    justify-content: space-between;
+    align-items:normal;
+    padding: 30px 20%;
+    background-color: #ffffff;
+}
+
+body {
+    font-family: sans-serif;
+    color: #ffffff
+}
+
+.main-content {
+    border: dotted purple;
+    padding: 10px;
+}
+
