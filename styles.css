@@ -14,6 +14,7 @@ li, a {
     text-decoration: none;
 }
 
+
 header {
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -51,7 +52,7 @@ header {
     font-size: 12px;
     align-items:normal;
     display:inline-block;
-    padding: 30px 10%;
+    padding: 30px 10% 30px;
 }
 
 .row {
@@ -59,19 +60,84 @@ header {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: stretch;
+    justify-content:center;
+    padding: 5px 10%;
 }
 
 .card {
     border-style: groove;
     border-width:0.01cm;
-    width: 240px;
-    height: 280px;
-    margin: 10px;
+    width: 300px;
+    height: 375px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color:#000000;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 5px;
+    background-size: cover;
 }
 
 
+.button-traits {
+    background-color: #88D9EB;
+    border-style:none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    border-radius: 20px;
+    margin: 5px 5px;
+    text-align:center;
+}
 
+.card h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 10px;
+}
 
+.dog-1 {
+    background-image: url(images/beans.jpg)
+}
 
+.dog-2 {
+    background-image: url(images/boston-terrier.jpg)
+}
+
+.dog-3 {
+    background-image: url(images/boxer.jpg)
+}
+
+.dog-4 {
+    background-image: url(images/golden-lab.jpg)
+}
+
+.dog-5 {
+    background-image: url(images/little-dog.jpg)
+}
+
+.dog-6 {
+    background-image: url(images/old-shaggy.jpg)
+}
+
+.dog-7 {
+    background-image: url(images/shih-tzu.jpg)
+}
+
+.dog-8 {
+    background-image: url(images/young-bulldog.jpg);
+}
+
+.dog-9 {
+    background-image: url(images/young-peppy.jpg);
+}
